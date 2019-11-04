@@ -5,18 +5,18 @@
   <div class="right-content">
     <ul>
       <li>
-        <button mat-button>About</button>
+        <button routerLink="" mat-button>About</button>
       </li>
       <li>
-        <button mat-button>Resume</button>
+        <button routerLink="/resume" mat-button>Resume</button>
       </li>
       <li>
-        <button mat-button>Projects</button>
+        <button  routerLink="/projects" mat-button>Projects</button>
       </li>
       <li>
-        <button mat-button>Contact</button>
+        <button routerLink="/contact" mat-button>Contact</button>
       </li>
     </ul>
   </div>
 </mat-toolbar>
-<app-home-content></app-home-content>
+<router-outlet></router-outlet>

@@ -17,13 +17,19 @@ import { MatButtonModule } from '@angular/material/button';
 
 import { PageHeaderComponent } from './page-header/page-header.component';
 import { HomeContentComponent } from './home-content/home-content.component';
+import { ProjectsComponent } from './projects/projects.component';
+import { ResumeComponent } from './resume/resume.component';
+import { ContactComponent } from './contact/contact.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     PageHeaderComponent,
-    HomeContentComponent
+    HomeContentComponent,
+    ProjectsComponent,
+    ResumeComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,
