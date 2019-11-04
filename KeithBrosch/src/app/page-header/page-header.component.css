@@ -32,3 +32,9 @@ ul li {
   display: inline;
   margin-right: 50px;
 }
+
+.mat-menu-item {
+  color: #05386B;
+  font-weight: 500;
+}
+

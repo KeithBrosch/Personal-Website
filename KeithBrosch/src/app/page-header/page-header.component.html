@@ -8,10 +8,16 @@
         <button routerLink="" mat-button>About</button>
       </li>
       <li>
-        <button routerLink="/resume" mat-button>Resume</button>
+        <button [matMenuTriggerFor]="projectsMenu" mat-button>Projects</button>
+        <mat-menu #projectsMenu="matMenu">
+          <button routerLink="/projects/micdma" mat-menu-item>MICDMA</button>
+          <button routerLink="/projects/pointcheck" mat-menu-item>Pointcheck</button>
+          <button routerLink="/projects/freelance" mat-menu-item>Freelance Work</button>
+        </mat-menu>
+
       </li>
       <li>
-        <button  routerLink="/projects" mat-button>Projects</button>
+        <button routerLink="/resume" mat-button>Resume</button>
       </li>
       <li>
         <button routerLink="/contact" mat-button>Contact</button>

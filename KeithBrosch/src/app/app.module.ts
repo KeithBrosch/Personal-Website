@@ -13,13 +13,16 @@ import { MatMenuModule } from '@angular/material/menu';
 import { MatIconModule } from '@angular/material/icon';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatButtonModule } from '@angular/material/button';
-
+import { MatExpansionModule } from '@angular/material/expansion';
+import { MatListModule } from '@angular/material/list';
 
 import { PageHeaderComponent } from './page-header/page-header.component';
 import { HomeContentComponent } from './home-content/home-content.component';
-import { ProjectsComponent } from './projects/projects.component';
 import { ResumeComponent } from './resume/resume.component';
 import { ContactComponent } from './contact/contact.component';
+import { MICDMAComponent } from './micdma/micdma.component';
+import { PointcheckComponent } from './pointcheck/pointcheck.component';
+import { FreelanceComponent } from './freelance/freelance.component';
 
 
 @NgModule({
@@ -27,9 +30,11 @@ import { ContactComponent } from './contact/contact.component';
     AppComponent,
     PageHeaderComponent,
     HomeContentComponent,
-    ProjectsComponent,
     ResumeComponent,
-    ContactComponent
+    ContactComponent,
+    MICDMAComponent,
+    PointcheckComponent,
+    FreelanceComponent
   ],
   imports: [
     BrowserModule,
@@ -40,7 +45,9 @@ import { ContactComponent } from './contact/contact.component';
     MatIconModule,
     MatToolbarModule,
     FontAwesomeModule,
-    MatButtonModule
+    MatButtonModule,
+    MatExpansionModule,
+    MatListModule
   ],
   providers: [],
   bootstrap: [AppComponent]
