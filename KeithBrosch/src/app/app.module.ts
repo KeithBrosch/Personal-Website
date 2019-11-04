@@ -7,17 +7,23 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 
+
 import { MatCardModule } from '@angular/material';
 import { MatMenuModule } from '@angular/material/menu';
 import { MatIconModule } from '@angular/material/icon';
 import { MatToolbarModule } from '@angular/material/toolbar';
+import { MatButtonModule } from '@angular/material/button';
+
+
 import { PageHeaderComponent } from './page-header/page-header.component';
+import { HomeContentComponent } from './home-content/home-content.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    PageHeaderComponent
+    PageHeaderComponent,
+    HomeContentComponent
   ],
   imports: [
     BrowserModule,
@@ -27,7 +33,8 @@ import { PageHeaderComponent } from './page-header/page-header.component';
     MatMenuModule,
     MatIconModule,
     MatToolbarModule,
-    FontAwesomeModule
+    FontAwesomeModule,
+    MatButtonModule
   ],
   providers: [],
   bootstrap: [AppComponent]

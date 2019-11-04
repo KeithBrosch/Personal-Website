@@ -1,8 +1,9 @@
 .page-header {
   background: #5CDB95;
   padding: 30px;
-  height: auto;
-  width: 100vw;
+  height: 10vh;
+  width: 80%;
+  margin: auto;
 }
 
 .page-header p {
@@ -31,4 +32,3 @@ ul li {
   display: inline;
   margin-right: 50px;
 }
-
