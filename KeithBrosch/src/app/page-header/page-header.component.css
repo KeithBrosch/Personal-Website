@@ -1,0 +1,34 @@
+.page-header {
+  background: #5CDB95;
+  padding: 30px;
+  height: auto;
+  width: 100vw;
+}
+
+.page-header p {
+    color: #05386B;
+  }
+
+.right-content, .left-content{
+  display: inline-block;
+}
+
+.left-content{
+  width: 10%;
+}
+
+.right-content{
+  width: 90%;
+  float: right;
+}
+
+ul{
+  list-style-type: none;
+  float: right
+}
+
+ul li {
+  display: inline;
+  margin-right: 50px;
+}
+
