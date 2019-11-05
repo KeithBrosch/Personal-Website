@@ -1,11 +1,11 @@
-<mat-toolbar class="page-header">
-  <div class="left-content">
-    <p>Keith Brosch</p>
-  </div>
-  <div class="right-content">
+<mat-toolbar class="page-header mat-elevation-z8">
+  <div class="content">
     <ul>
       <li>
-        <button routerLink="" mat-button>About</button>
+        <button routerLink="" mat-button>Home</button>
+      </li>
+      <li>
+        <button routerLink="/about" mat-button>About</button>
       </li>
       <li>
         <button [matMenuTriggerFor]="projectsMenu" mat-button>Projects</button>
@@ -17,10 +17,10 @@
 
       </li>
       <li>
-        <button routerLink="/resume" mat-button>Resume</button>
+        <button routerLink="/contact" mat-button>Contact</button>
       </li>
       <li>
-        <button routerLink="/contact" mat-button>Contact</button>
+        <button mat-raised-button routerLink="/resume" mat-button>Resume<fa-icon [icon]="faFileDownload"></fa-icon></button>
       </li>
     </ul>
   </div>

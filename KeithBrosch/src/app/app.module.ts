@@ -15,6 +15,7 @@ import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatButtonModule } from '@angular/material/button';
 import { MatExpansionModule } from '@angular/material/expansion';
 import { MatListModule } from '@angular/material/list';
+import { MatGridListModule } from '@angular/material/grid-list';
 
 import { PageHeaderComponent } from './page-header/page-header.component';
 import { HomeContentComponent } from './home-content/home-content.component';
@@ -23,6 +24,8 @@ import { ContactComponent } from './contact/contact.component';
 import { MICDMAComponent } from './micdma/micdma.component';
 import { PointcheckComponent } from './pointcheck/pointcheck.component';
 import { FreelanceComponent } from './freelance/freelance.component';
+import { ProjectsComponent } from './projects/projects.component';
+import { AboutComponent } from './about/about.component';
 
 
 @NgModule({
@@ -34,7 +37,9 @@ import { FreelanceComponent } from './freelance/freelance.component';
     ContactComponent,
     MICDMAComponent,
     PointcheckComponent,
-    FreelanceComponent
+    FreelanceComponent,
+    ProjectsComponent,
+    AboutComponent
   ],
   imports: [
     BrowserModule,
@@ -47,7 +52,8 @@ import { FreelanceComponent } from './freelance/freelance.component';
     FontAwesomeModule,
     MatButtonModule,
     MatExpansionModule,
-    MatListModule
+    MatListModule,
+    MatGridListModule
   ],
   providers: [],
   bootstrap: [AppComponent]

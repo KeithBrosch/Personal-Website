@@ -1,40 +1,33 @@
 .page-header {
-  background: #5CDB95;
-  padding: 30px;
+  background: #000;
   height: 10vh;
-  width: 80%;
+  width: 100%;
   margin: auto;
 }
 
-.page-header p {
-    color: #05386B;
+  .page-header p {
+    color: #fff;
   }
 
-.right-content, .left-content{
+.content {
   display: inline-block;
-}
-
-.left-content{
-  width: 10%;
-}
-
-.right-content{
-  width: 90%;
-  float: right;
+  margin: auto;
 }
 
 ul{
   list-style-type: none;
-  float: right
 }
 
 ul li {
   display: inline;
-  margin-right: 50px;
+  margin-right: 20px;
 }
 
 .mat-menu-item {
-  color: #05386B;
+  color: #000;
   font-weight: 500;
 }
 
+.ng-fa-icon {
+  padding-left: 10px;
+}

@@ -1,0 +1,30 @@
+.body {
+  margin: 0;
+  padding: 0;
+  height: 90vh;
+  text-align: left;
+}
+
+p, ul {
+  padding-left: 100px;
+  padding-right: 100px;
+  color: #101357;
+  font-size: 3rem;
+}
+
+.mat-card {
+  width: 90vw;
+  height: auto;
+  margin: auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  box-shadow: none;
+}
+
+ul {
+  list-style: none;
+}
+
+li, a {
+  color: #101357;
+}
