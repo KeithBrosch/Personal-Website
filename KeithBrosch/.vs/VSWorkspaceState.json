@@ -1,0 +1,14 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\src",
+    "\\src\\app",
+    "\\src\\app\\about",
+    "\\src\\app\\home-content",
+    "\\src\\app\\micdma",
+    "\\src\\app\\page-header",
+    "\\src\\app\\pointcheck"
+  ],
+  "SelectedNode": "\\src\\app\\home-content\\home-content.component.css",
+  "PreviewInSolutionExplorer": false
+}
