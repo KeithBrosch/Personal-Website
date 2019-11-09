@@ -1,27 +1,26 @@
-.body {
-  margin: 0;
-  padding: 0;
-  height: 100vw;
-  height: auto;
-  width: 100vw;
-}
-
-p {
-  width: 70%;
-  margin: auto;
-  color: #fff;
-  font-size: 5rem;
-}
-
-.mat-card {
-  width: 100%;
+.home-content {
   height: 80vh;
-  margin: auto;
-  padding-bottom: 50px;
-  padding-left: 0px !important;
-  padding-right: 0px !important;
-  overflow-x: hidden;
-  background: url('/assets/images/black-and-white-buildings-city-2255.jpg');
-  background-size: cover;
-  background-position: 80% 80%;
+  text-align: center;
+  color: #fff;
 }
+
+.home-content > .info{
+  padding-top: 150px;
+  font-size: 42px;
+}
+
+.icons{
+  padding-top: 10px;
+  width: 100%;
+  height: auto;
+}
+
+.icons > a > svg{
+  height: auto;
+  width: 50px;
+  padding: 0 10px;
+}
+
+  .icons > a > svg:hover {
+    opacity: .8;
+  }

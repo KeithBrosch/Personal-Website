@@ -18,50 +18,7 @@ $custom-theme: mat-light-theme($custom-theme-primary, $custom-theme-accent, $cus
 }
 
 body {
+  margin-left: 10vw;
+  margin-right: 10vw;
   background: #FFF;
-}
-
-.mat-card {
-  background: #FFF;
-  text-align: center;
-}
-
-.mat-icon-button {
-  width: 800px;
-  height: auto;
-}
-
-.fa-icon{
-  width: 800px;
-  height: auto;
-}
-
-.mat-menu-panel {
-  border: 2px solid #101357;
-  background: #FFF;
-}
-
-.smaller {
-  font-size: 2em !important;
-}
-
-.smallest {
-  font-size: 1em !important;
-}
-
-.mat-raised-button {
-  color: #000;
-}
-
-.page-header .mat-button{
-  color: #fff;
-  font-size: 16px;
-}
-
-.page-header .mat-raised-button{
-  color: #000;
-}
-
-.marg {
-  margin-top: 100px !important;
 }

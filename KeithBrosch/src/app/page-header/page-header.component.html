@@ -1,28 +1,16 @@
-<mat-toolbar class="page-header mat-elevation-z8">
-  <div class="content">
-    <ul>
-      <li>
-        <button routerLink="" mat-button>Home</button>
-      </li>
-      <li>
-        <button routerLink="/about" mat-button>About</button>
-      </li>
-      <li>
-        <button [matMenuTriggerFor]="projectsMenu" mat-button>Projects</button>
-        <mat-menu #projectsMenu="matMenu">
-          <button routerLink="/projects/micdma" mat-menu-item>MICDMA</button>
-          <button routerLink="/projects/pointcheck" mat-menu-item>Pointcheck</button>
-          <button routerLink="/projects/freelance" mat-menu-item>Freelance Work</button>
-        </mat-menu>
-
-      </li>
-      <li>
-        <button routerLink="/contact" mat-button>Contact</button>
-      </li>
-      <li>
-        <button mat-raised-button routerLink="/resume" mat-button>Resume<fa-icon [icon]="faFileDownload"></fa-icon></button>
-      </li>
-    </ul>
-  </div>
-</mat-toolbar>
-<router-outlet></router-outlet>
+<div class="hero">
+  <mat-toolbar class="page-header">
+    <div class="page-header-content">
+      <div class="content-left">
+        Keith
+        <span class="lighter">
+          Brosch
+        </span>
+      </div>
+      <div class="content-right">
+        <a href="#" target="_blank">Resume</a>
+      </div>
+    </div>
+  </mat-toolbar>
+  <app-home-content></app-home-content>
+</div>

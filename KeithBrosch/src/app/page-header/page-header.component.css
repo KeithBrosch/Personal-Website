@@ -1,33 +1,56 @@
-.page-header {
-  background: #000;
-  height: 10vh;
-  width: 100%;
-  margin: auto;
+.hero {
+  background-image: url("../../assets/images/hero-image.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center bottom;
 }
 
-  .page-header p {
-    color: #fff;
+.page-header {
+  background: #fff;
+  height: 100%;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  padding: 0;
+}
+
+.page-header-content {
+  max-width: 1200px;
+  width: 100%;
+  display: table;
+  margin: 0 auto;
+  padding: 0 16px;
+  font-size: 22px;
+}
+
+.content-left {
+  cursor: pointer;
+  display: inline-block;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: black;
+}
+
+.lighter {
+  opacity: 0.5;
+}
+
+  .content-left:hover, .content-right:hover {
+    opacity: 0.8;
   }
 
-.content {
-  display: inline-block;
-  margin: auto;
+.content-right {
+  display: table-cell;
+  width: 50%;
+  vertical-align: middle;
+  height: auto;
+  text-align: right;
 }
 
-ul{
-  list-style-type: none;
-}
-
-ul li {
-  display: inline;
-  margin-right: 20px;
-}
-
-.mat-menu-item {
-  color: #000;
-  font-weight: 500;
-}
-
-.ng-fa-icon {
-  padding-left: 10px;
-}
+  .content-right a {
+    margin-right: 0;
+    text-transform: uppercase;
+    font-size: 22px;
+    color: black;
+    letter-spacing: 2px;
+    text-decoration: none;
+  }
