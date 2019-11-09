@@ -1,1 +1,28 @@
-<p>projects works!</p>
+<div class="projects">
+  <div class="row">
+    <div class="col-md-8 col-sm-6 col-xs-12">
+      <a [routerLink]="['/micdma']">
+        <mat-card class="micdma">
+          MICDMA
+        </mat-card>
+      </a>
+    </div>
+    <div class="col-md-4 col-sm-6 col-xs-12">
+      <a [routerLink]="['/pointcheck']">
+        <mat-card class="pointcheck">
+          Pointcheck
+        </mat-card>
+        </a>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-sm-12">
+      <a [routerLink]="['/freelance']">
+        <mat-card class="freelance">
+          Freelance Work
+        </mat-card>
+        </a>
+    </div>
+  </div>
+</div>

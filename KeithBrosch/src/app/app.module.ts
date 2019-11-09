@@ -19,8 +19,6 @@ import { MatGridListModule } from '@angular/material/grid-list';
 
 import { PageHeaderComponent } from './page-header/page-header.component';
 import { HomeContentComponent } from './home-content/home-content.component';
-import { ResumeComponent } from './resume/resume.component';
-import { ContactComponent } from './contact/contact.component';
 import { MICDMAComponent } from './micdma/micdma.component';
 import { PointcheckComponent } from './pointcheck/pointcheck.component';
 import { FreelanceComponent } from './freelance/freelance.component';
@@ -33,8 +31,6 @@ import { AboutComponent } from './about/about.component';
     AppComponent,
     PageHeaderComponent,
     HomeContentComponent,
-    ResumeComponent,
-    ContactComponent,
     MICDMAComponent,
     PointcheckComponent,
     FreelanceComponent,

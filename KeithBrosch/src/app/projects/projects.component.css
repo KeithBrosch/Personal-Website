@@ -1,0 +1,24 @@
+mat-card {
+  margin-top: 50px;
+}
+
+.micdma, .pointcheck {
+  height: 600px;
+}
+
+.micdma {
+  background: green;
+}
+
+.pointcheck {
+  background: blue;
+}
+
+.freelance {
+  height: 400px;
+  background: red;
+}
+
+.projects {
+  margin-bottom: 50px;
+}
