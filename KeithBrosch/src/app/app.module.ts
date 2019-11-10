@@ -16,6 +16,7 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatExpansionModule } from '@angular/material/expansion';
 import { MatListModule } from '@angular/material/list';
 import { MatGridListModule } from '@angular/material/grid-list';
+import {MatChipsModule} from '@angular/material/chips';
 
 import { PageHeaderComponent } from './page-header/page-header.component';
 import { HomeContentComponent } from './home-content/home-content.component';
@@ -49,7 +50,8 @@ import { AboutComponent } from './about/about.component';
     MatButtonModule,
     MatExpansionModule,
     MatListModule,
-    MatGridListModule
+    MatGridListModule,
+    MatChipsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

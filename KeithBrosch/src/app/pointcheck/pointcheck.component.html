@@ -1,38 +1,16 @@
-<mat-card class="body mat-elevation-z8">
-  <p class="smaller">Pointcheck.gg (2018)</p>
+<div class="home-content">
+</div>
+<mat-card class="body">
+  <p class="title">Pointcheck.gg (2018)</p>
+  <hr />
   <br />
-  <p class="smaller">
-    Objective:<br />
-  </p>
-  <p class="smallest">
-    Build a web application that takes two Xbox Live gamertags and returns a list of all Halo 3 matches in which those two players play with or against each other.
+  <p>
+    A friend and I used to sit around and argue over which of us was the better Halo 3 player back in the day. We thought that It would be cool to see the statistic from every match that we had played together, so we made an application that does just that. Fortunately, the creators of Halo kept a match history log for every player who ever played the game. We first asynchronously scrape the match history pages for both players and store each unique match ID into an SQL Server database. We then search for matching IDs to find which matches both players were a part of. The application gathered a minor buzz in the small but passionate Halo 3 community. We had several hundred unique users in the first 6 months but has steadily decreased in traffic since then. Ultimately this was just a passion project that I had a lot of fun making.
   </p>
   <br />
-  <p class="smaller">
-    Description:<br />
-  </p>
-  <p class="smallest">
-    A friend and I used to sit around and argue over which of us was the better Halo 3 player back in the day. We thought that It would be cool to see the statistic from every match that we had played together, so we made an application that does just that. Fortunately the creators of Halo kept a match history log for every player who ever played the game. We first asynchronously scrape the match history pages for both players and store each unique match ID into an SQL Server database. We then search for matching IDs to find which matches both players were a part of. The application gathered a minor buzz in the small but passionate Halo 3 community. We had several hundred unique users in the first 6 months but has steadily decreased in traffic since then. Ultimately this was just a passion project that I had a lot of fun making.
- </p>
-  <br/>
-  <p class="smaller">
-    Skills learned:<br/>
-  </p>
-  <ul class="smallest">
-    <li>
-      Web Scraping
-    </li>
-    <li>
-      Asynchronous Methods
-    </li>
-    <li>
-      Jquery
-    </li>
-    <li>
-      SQL Server
-    </li>
-    <li>
-      AWS Hosting
-    </li>
-  </ul>
+  <mat-chip-list aria-label="Fish selection">
+    <mat-chip>Web Scraping</mat-chip>
+    <mat-chip class="second">SQL Server</mat-chip>
+    <mat-chip class="third">jQuery</mat-chip>
+  </mat-chip-list>
 </mat-card>

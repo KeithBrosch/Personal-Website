@@ -1,0 +1,33 @@
+.body {
+  box-shadow: none;
+}
+
+.home-content {
+  height: 80vh;
+  text-align: center;
+  color: #fff;
+  background-image: url("../../assets/images/parc-mobile.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center top;
+}
+
+@media only screen and (min-width: 770px){
+  .home-content {
+    background-image: url("../../assets/images/parc.png");
+  }
+}
+
+.title {
+  font-size: 22px;
+  text-transform: uppercase;
+}
+
+.mat-chip {
+  background-color: #000;
+  color: #fff;
+}
+
+.second {
+  opacity: 0.5;   
+}

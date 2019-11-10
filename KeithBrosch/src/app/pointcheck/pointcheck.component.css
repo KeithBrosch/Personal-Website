@@ -1,29 +1,33 @@
 .body {
-  margin: 0;
-  padding: 0;
-  height: 90vh;
-  text-align: left;
+  box-shadow: none;
 }
 
-p, ul {
-  padding-left: 100px;
-  padding-right: 100px;
-  color: #101357;
-  font-size: 3rem;
+.home-content {
+  height: 80vh;
+  text-align: center;
+  color: #fff;
+  background-image: url("../../assets/images/Pointcheck.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
 }
 
-.mat-card {
-  width: 90vw;
-  height: auto;
-  margin: auto;
-  padding-top: 50px;
-  padding-bottom: 50px;
+.title {
+  font-size: 22px;
+  text-transform: uppercase;
 }
 
-ul{
-  list-style: none;
+.mat-chip {
+  background-color: #16b086;
+  color: #fff;
 }
 
-li {
-  color: #101357;
+.second {
+  background-color: rgb(17,17,17);
+}
+
+.third {
+  background-color: #FFF;
+  color: rgb(17,17,17);
+  border: 2px solid rgb(17,17,17);  
 }
